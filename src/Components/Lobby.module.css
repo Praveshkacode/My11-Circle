@@ -29,6 +29,15 @@
     height: 50px;
     align-items: end;
 }
+.matchStatus{
+    display: flex;
+    background-color: white;
+    min-width: 70%;
+    justify-content: space-around;
+    height: 50px;
+    border-radius: 25px;
+    margin: 15px;
+}
 
 .btn{
     background-color: white;
@@ -37,8 +46,21 @@
     border-radius: none;
 }
 
-.btn:hover{
+.btn.active{
     border-bottom: 4px solid black;
+}
+.btnRound{
+    background-color: white;
+    border: 0px;
+    color: black;
+    border-radius: none;
+    height: 50px;
+}
+
+.btnRound.active{
+    background-color: red;
+    color: white;
+    font-weight: 700;
 }
 
 .mainBg {

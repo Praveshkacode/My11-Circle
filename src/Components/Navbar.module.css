@@ -18,7 +18,7 @@ nav {
     height: 40px;
   }
   
-  p{
+  .rightContent{
     display: flex;
     margin-left: 650px;
     align-items: center;
