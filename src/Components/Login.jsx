@@ -11,7 +11,7 @@ const Login = () => {
     };
 
     const handleLogin = ()=> {
-        navigate('/my11');
+        navigate('/lobby');
     };
   return (
     <div className={styles.loginPage}>

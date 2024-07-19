@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router ,Route, Routes} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Login from './Components/Login';
-import My11 from './Components/My11';
+import Lobby from './Components/Lobby';
 
 function App() {
   
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Navbar/>} />
         <Route path='/login' element={<Login/>} />
-        <Route path='/my11' element={<My11/>} />
+        <Route path='/lobby' element={<Lobby/>} />
       </Routes>
     </Router>
 

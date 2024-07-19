@@ -1,0 +1,64 @@
+.mainPage{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    min-width: 40%;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainNav{
+    display: flex;
+    background-color: red;
+    min-width: 100%;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.chooseGame{
+    display: flex;
+    background-color: white;
+    min-width: 100%;
+    justify-content: space-around;
+    height: 50px;
+    align-items: end;
+}
+
+.btn{
+    background-color: white;
+    border: 0px;
+    color: black;
+    border-radius: none;
+}
+
+.btn:hover{
+    border-bottom: 4px solid black;
+}
+
+.mainBg {
+    width: 60%; 
+    position: relative; 
+}
+
+.logo3{
+    font-size: 30px;
+}
+
+.bgImage {
+    position: fixed;
+    top: 0;
+    left: 40%; 
+    width: 60%;
+    height: 100vh;
+    background-image: url('../assets/mainbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+}
